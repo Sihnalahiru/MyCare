@@ -1,0 +1,21 @@
+SSW CAREGIVER PWA V3 — FINAL SOURCE PDF INSTALL
+
+The final app ZIP is kept below the attachment/download size that caused the earlier corrupted ZIP issue.
+The two original source PDFs are supplied separately and are NOT altered.
+
+1. Extract this final app ZIP.
+2. Put source-book.pdf into:
+   assets\source-book.pdf
+3. For official-source.pdf:
+   - Download OFFICIAL SOURCE PART 01 and PART 02.
+   - Extract both ZIPs into the same folder.
+   - They create official-source.pdf.part01 and official-source.pdf.part02.
+   - Put JOIN-OFFICIAL-SOURCE.bat in that same folder and run it.
+   - Copy the resulting official-source.pdf into:
+     assets\official-source.pdf
+
+Original official-source.pdf SHA-256:
+27f6c3b2b38df75a20713c72f241cf8f37d7a0c8bd784999f3b4ca8f4a4af22b
+
+Original source-book.pdf SHA-256:
+0ac7f85d02a85ae7324f77f731247fe136fa1f68956143f2b72ff69df4813a76
