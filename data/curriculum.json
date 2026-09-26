@@ -1,0 +1,29 @@
+{
+  "title":"SSW Caregiver Self-Study Master",
+  "source":"SSW Caregiver FINAL MASTER TRILINGUAL ILLUSTRATED — Sinhala Fixed",
+  "parts":[
+    {"id":"p1","title":"PART 1 — Basics of Nursing Care","lessons":[
+      {"id":"l1","title":"Human Dignity and Independence in Nursing Care","pages":[1,5]},
+      {"id":"l2","title":"Role and Professional Ethics of Care Workers","pages":[6,12]},
+      {"id":"l3","title":"Ensuring Safety and Risk Management in Nursing Care","pages":[13,27]}]},
+    {"id":"p2","title":"PART 2 — Mechanism of Mind and Body","lessons":[
+      {"id":"l4","title":"Understanding the Mechanism of Mind and Body","pages":[28,36]},
+      {"id":"l5","title":"Understanding People in Need of Nursing Care","pages":[37,46]}]},
+    {"id":"p3","title":"PART 3 — Communication Skills","lessons":[
+      {"id":"l6","title":"Basics of Communication","pages":[47,49]},
+      {"id":"l7","title":"Communication with Users","pages":[50,56]},
+      {"id":"l8","title":"Communication with Team Members","pages":[57,58]}]},
+    {"id":"p4","title":"PART 4 — Skills for Providing Daily Assistance","lessons":[
+      {"id":"l9","title":"Walking / Lifting / Transferring","pages":[59,73]},
+      {"id":"l10","title":"Nursing Care at Mealtimes","pages":[74,77]},
+      {"id":"l11","title":"Nursing Care Related to Elimination Needs","pages":[78,85]},
+      {"id":"l12","title":"Nursing Care Related to Grooming","pages":[86,89]},
+      {"id":"l13","title":"Nursing Care Related to Bathing / Keeping Clean","pages":[90,94]},
+      {"id":"l14","title":"Nursing Care Related to Housework","pages":[95,100]}]},
+    {"id":"review","title":"Final Exam Review / Reconciliation","lessons":[
+      {"id":"r1","title":"High-Yield Procedure Memory Sheet","pages":[101,108]},
+      {"id":"r2","title":"Elimination Numbers — Final Check","pages":[109,109]},
+      {"id":"r3","title":"Final Source Reconciliation","pages":[112,112]}
+    ]}
+  ]
+}
