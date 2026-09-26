@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0B3557">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SSW Caregiver">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="description" content="SSW Caregiver Master Self-Study — offline English, Sinhala and Japanese learning PWA">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+<title>SSW Caregiver Master</title>
+</head>
+<body>
+<header class="topbar">
+  <button id="menuBtn" class="icon-btn" aria-label="Open menu"></button>
+  <div class="brand"><div class="brand-title"><img class="brand-logo" src="icon-caregiver.svg" alt="Careworker"> SSW Caregiver</div><div class="brand-sub">English · සිංහල · 日本語</div></div>
+  <div class="top-actions">
+    <span id="onlineBadge" class="status-badge">● Offline-ready</span>
+    <button id="themeBtn" class="round-btn" aria-label="Toggle dark mode"></button>
+    <button id="stopVoice" class="round-btn" aria-label="Stop voice"></button>
+  </div>
+</header>
+<div class="app-shell">
+  <aside id="sidebar" class="sidebar">
+    <div class="profile-mini"><div class="avatar">SSW</div><div><b>Caregiver Master</b><small>Self-study • offline</small></div></div>
+    <div class="nav-label">LEARN</div>
+    <button class="nav active" data-view="dashboard" data-icon="home"><span>Dashboard</span></button>
+    <button class="nav" data-view="study" data-icon="book"><span>Study</span></button>
+    <button class="nav" data-view="mcq" data-icon="quiz"><span>MCQ Exam</span><em id="mcqCountNav">50</em></button>
+    <button class="nav" data-view="japanese" data-icon="jp"><span>Japanese Care</span><em>52</em></button>
+    <div class="nav-label">TOOLS</div>
+    <button class="nav" data-view="visuals" data-icon="image"><span>Visual Library</span><em>314</em></button>
+    <button class="nav" data-view="search" data-icon="search"><span>Search</span></button>
+    <button class="nav" data-view="progress" data-icon="chart"><span>Progress</span></button>
+    <div class="side-bottom"><div class="offline-dot">●</div><b>Offline ready</b><small>Master data, images, MCQs and progress are local.</small></div>
+  </aside>
+  <main id="app"></main>
+</div>
+<div id="toast" class="toast"></div>
+<div id="lightbox" class="modal hidden"></div>
+<script src="app.js"></script>
+</body>
+</html>
